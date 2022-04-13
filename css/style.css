@@ -1,0 +1,453 @@
+/* Reset -------------------------------------------------- */
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+}
+
+
+a img {
+    border: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+a:focus {
+    outline: none;
+}
+
+/* Global -------------------------------------------------- */
+body {
+    color: #000;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins';
+}
+
+/* Global Css for headings, p and achors */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+a {
+    text-decoration: none !important;
+}
+
+button {}
+
+ul,
+ul li,
+ul ol,
+ul li ul,
+ul li ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------------------------Fonts------------------------------*/
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/*---------------------------------------------------------------*/
+.container {
+    max-width: 1630px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* header section css starts here */
+    .livingston-header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 45px 0;
+        z-index: 99;
+    }
+    .header__inner{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .livigston-logo a{
+        display: inline-block;
+        width: 296px;
+    }
+    .livigston-logo a img{
+        width: 100%;
+    }
+    .livigston-menu{
+        margin-left: 140px;
+        display: flex;
+        align-items: center;
+    }
+    .menu_buttons{
+        display: flex;
+        align-items: center;
+    }
+    .menu_buttons li{
+        margin-right: 35px;
+    }
+    .menu_buttons li:last-child{
+        margin-right: 0;
+    }
+    .menu_buttons li a{
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: normal;
+        color: #fff;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+    }
+    .menu_buttons li a img{
+        margin-left: 5px;
+    }
+    .search-bar{
+        margin-left: 115px;
+        margin-right: 45px;
+        position: relative;
+    }
+    .search-bar input{
+        background-color: transparent;
+        border-bottom: 1px solid #fff;
+        padding: 0 10px 10px 40px;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: normal;
+        color: #FFF;
+        text-transform: capitalize;
+    }
+    .search-bar input::placeholder{
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: normal;
+        color: #FFF;
+        opacity: 50%;
+        text-transform: capitalize;
+    }
+    .search-bar img{
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        pointer-events: none;
+    }
+    .cart-search{
+        display: flex;
+        align-items: center;
+    }
+    .cart-search li{
+        margin-right: 40px;
+    }
+    .cart-search li:last-child{
+        margin-right: 0;
+    }
+    .livingston-header.headerscroll{
+        background-color: #B0947C;
+    }
+/* header section css ends here */
+/* banner section css starts here */
+    .livingston-banner{
+        background-color: #B0947C;
+        height: 100vh;
+    }
+/* banner section css ends here */
+/* new arrival section starts here */
+.new-arrivals{
+    padding-top: 115px;
+    padding-bottom: 190px;
+}
+.arrival-heading{
+    font-family: 'Playfair Display';
+    font-size: 56px;
+    line-height: 75px;
+    font-weight: bold;
+    color: #424241;
+}
+.new-arrivals__inner{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-arrivals__inner > li{
+    margin-right: 50px;
+    width: 31%;
+}
+.new-arrivals__inner li:last-child{
+    margin-right: 0px;
+}
+.dress-img{
+    position: relative;
+}
+.dress-img > img{
+    width: 100%;
+}
+.customer-options{
+    position: absolute;
+    top: 31px;
+    right: 37px;
+}
+.customer-options li{
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+.customer-options li a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F3ED;
+}
+.dress-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.dress-title p{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #424241;
+}
+.price{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 55px;
+    color: #263E52;
+}
+.dress-colors{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.dress-colors li{
+    margin-right: 15px;
+}
+.dress-colors li a{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #A78364;
+    display: inline-block;
+}
+.dress-colors li:nth-child(2) a{
+    background-color: #56728B;
+}
+.dress-colors li:nth-child(3) a{
+    background-color: #F1B171;
+}
+.dress-colors li:nth-child(4) a{
+    background-color: #F86F64;
+}
+/* new arrival section starts here */
+
+/* choosing us css starts here */
+.choosingus{
+    padding-bottom: 154px;
+}
+.choosing-criteria{
+    padding-top: 103px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.choosing-criteria li{
+    width: 22%;
+}
+.choosing-criteria li h5{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #424241;
+    margin-top: 34px;
+    margin-bottom: 8px;
+}
+.choosing-criteria li p{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #615E5B;
+}
+/* choosing us css starts here */
+
+
+
+/* tabs css starts here */
+    .our-collection{
+        padding-bottom: 25px;
+    }
+    .collection-tab{
+        padding-top: 91px;
+    }
+    .tab-menu{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 72px;
+    }
+    .tab-menu li{
+        margin-right: 50px;
+    }
+    .tab-menu li:last-child{
+        margin-right: 0px;
+    }
+    .tab-menu li a{
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: normal;
+        color: #615E5B;
+        opacity: 0.5;
+        padding-bottom: 20px;
+        display: inline-block;
+    }
+    .tab-menu li a.active{
+        color: #A78364;
+        border-bottom: 2px solid #A78364;
+    }
+    .tab-box{
+        display: none;
+        flex-wrap: wrap;
+    }
+    .tab-box .dress-img{
+        margin-right: 25px;
+        width: 23.50%;
+        margin-bottom: 70px;
+    }
+    .tab-box .dress-img:nth-child(4n){
+        margin-right: 0px;
+    }
+    .tab-box .dress-img p{
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: normal;
+        color: #424241;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    .tab-box .dress-img h4{
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: 500;
+        color: #263E52;
+        text-align: center;
+    }
+/* tabs css ends here */

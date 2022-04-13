@@ -532,3 +532,112 @@ ul li ul li {
     width: 100%;
 }
 /* our insta gram css ends here */
+/* footer css starts here */
+.livingstonfooter{
+    background-color: #263E52;
+}
+.footer-inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 66px;
+}
+.footer-inner .footer-logo{
+    width: 24%;
+}
+.footer-inner .products-links{
+    width: 7%;
+    margin-left: 130px;
+}
+.footer-inner .contact-details{
+    width: 24%;
+    margin-left: auto;
+}
+.footer-inner p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color:#FEFCFB;
+    opacity: 0.5;
+}
+.footer-inner h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4C6579;
+    margin-top: 4px;
+    margin-bottom: 37px;
+}
+.footer-logo > a{
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 38px;
+}
+.social-links li{
+    margin-right: 18px;
+}
+.social-links li:last-child{
+    margin-right: 0px;
+}
+.products-links ul li{
+    margin-bottom: 16px;
+}
+.products-links ul li a{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #FEFCFB;
+}
+.footer-inner .products-links.about-links{
+    margin-left: 260px;
+}
+.contact-details ul{
+    margin-top: 35px;
+}
+.contact-details ul li{
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+}
+.contact-details ul li:last-child{
+    margin-bottom: 0px;
+}
+.contact-details ul a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FEFCFB;
+}
+.contact-details ul a img{
+    margin-right: 10px;
+}
+.copy-rights{
+    margin-top: 65px;
+    padding: 33px 0 39px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #4C6579;
+}
+.copy-rights p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #FEFCFB;
+}
+.payments-method ul{
+    display: flex;
+}
+.payments-method ul li{
+    margin-right: 15px;
+}
+.payments-method ul li:last-child{
+    margin-right: 0px;
+}
+.payments-method ul li a{
+    display: inline-block;
+}
+/* footer css ends here */

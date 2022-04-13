@@ -514,3 +514,21 @@ ul li ul li {
     cursor: pointer;
 }
 /* join newsletter css ends here */
+/* our insta gram css starts here */
+.our-instrgram{
+    padding-top: 91px;
+    padding-bottom: 152px;
+}
+.instapost{
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.instapost li{
+    width: 19.80;
+}
+.instapost li img{
+    width: 100%;
+}
+/* our insta gram css ends here */

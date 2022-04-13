@@ -165,6 +165,14 @@ ul li ul li {
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 /*---------------------------------------------------------------*/
 .container {
     max-width: 1630px;
@@ -391,63 +399,118 @@ ul li ul li {
 
 
 /* tabs css starts here */
-    .our-collection{
-        padding-bottom: 25px;
-    }
-    .collection-tab{
-        padding-top: 91px;
-    }
-    .tab-menu{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-bottom: 72px;
-    }
-    .tab-menu li{
-        margin-right: 50px;
-    }
-    .tab-menu li:last-child{
-        margin-right: 0px;
-    }
-    .tab-menu li a{
-        font-size: 24px;
-        line-height: 35px;
-        font-weight: normal;
-        color: #615E5B;
-        opacity: 0.5;
-        padding-bottom: 20px;
-        display: inline-block;
-    }
-    .tab-menu li a.active{
-        color: #A78364;
-        border-bottom: 2px solid #A78364;
-    }
-    .tab-box{
-        display: none;
-        flex-wrap: wrap;
-    }
-    .tab-box .dress-img{
-        margin-right: 25px;
-        width: 23.50%;
-        margin-bottom: 70px;
-    }
-    .tab-box .dress-img:nth-child(4n){
-        margin-right: 0px;
-    }
-    .tab-box .dress-img p{
-        font-size: 24px;
-        line-height: 35px;
-        font-weight: normal;
-        color: #424241;
-        text-align: center;
-        margin-top: 24px;
-        margin-bottom: 16px;
-    }
-    .tab-box .dress-img h4{
-        font-size: 24px;
-        line-height: 35px;
-        font-weight: 500;
-        color: #263E52;
-        text-align: center;
-    }
+.our-collection{
+    padding-bottom: 25px;
+}
+.collection-tab{
+    padding-top: 91px;
+}
+.tab-menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
+.tab-menu li{
+    margin-right: 50px;
+}
+.tab-menu li:last-child{
+    margin-right: 0px;
+}
+.tab-menu li a{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #615E5B;
+    opacity: 0.5;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.tab-menu li a.active{
+    color: #A78364;
+    border-bottom: 2px solid #A78364;
+}
+.tab-box{
+    display: none;
+    flex-wrap: wrap;
+}
+.tab-box .dress-img{
+    margin-right: 25px;
+    width: 23.50%;
+    margin-bottom: 70px;
+}
+.tab-box .dress-img:nth-child(4n){
+    margin-right: 0px;
+}
+.tab-box .dress-img p{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #424241;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.tab-box .dress-img h4{
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #263E52;
+    text-align: center;
+}
 /* tabs css ends here */
+/* join newsletter css starts here */
+.newletter-inner{
+    background-color: #E4E0DA;
+    padding: 103px 15px;
+    text-align: center;
+}
+.newletter-inner h2{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: bold;
+    color: #424241;
+    margin-bottom: 24px;
+}
+.newletter-inner p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #615E5B;
+}
+.newletter-inner form{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newletter-inner form input{
+    height: 60px;
+}
+.newletter-inner form input::placeholder{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #615E5B;
+    opacity: 50%;
+}
+.newletter-inner form input:nth-child(1){
+    width: 413px;
+    padding: 0 30px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #615E5B;
+}
+.newletter-inner form input:nth-child(2){
+    width: 105px;
+    background-color: #A78364;
+    font-weight: bold;
+    font-weight: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FEFCFB;
+    cursor: pointer;
+}
+/* join newsletter css ends here */

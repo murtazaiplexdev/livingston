@@ -660,5 +660,31 @@ ul li ul li {
         line-height: 31px;
     }
 }
-@media(max-width:1400px){}
+@media(max-width:1400px){
+    .livigston-logo a {
+        width: 170px;
+    }
+    .menu_buttons li {
+        margin-right: 20px;
+    }
+    .search-bar {
+        margin-left: 50px;
+        margin-right: 25px;
+    }
+    .cart-search li {
+        margin-right: 20px;
+    }
+    .dress-title img{
+        object-fit: contain;
+    }
+    .tab-box .dress-img {
+        width: 31%;
+    }
+}
+@media(max-width:1200px){}
+@media(max-width:1024px){}
+@media(max-width:991px){}
+@media(max-width:768px){}
+@media(max-width:575px){}
+@media(max-width:410px){}
 /* responsive css ends here */

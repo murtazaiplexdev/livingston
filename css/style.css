@@ -526,7 +526,7 @@ ul li ul li {
     justify-content: space-between;
 }
 .instapost li{
-    width: 19.80;
+    width: 19.80%;
 }
 .instapost li img{
     width: 100%;
@@ -641,3 +641,24 @@ ul li ul li {
     display: inline-block;
 }
 /* footer css ends here */
+
+
+
+/* responsive css starts here */
+@media(max-width:1590px){
+    .livigston-logo a {
+        width: 200px;
+    }
+    .livigston-menu {
+        margin-left: 40px;
+    }
+    .new-arrivals__inner > li {
+        margin-right: 40px;
+    }
+    .dress-title p {
+        font-size: 20px;
+        line-height: 31px;
+    }
+}
+@media(max-width:1400px){}
+/* responsive css ends here */
